@@ -1,0 +1,186 @@
+/*Name=Preeyanshu Singh
+student number=2417739
+*/
+/*this is universal selector here external font is uploaded(poppins)*/
+*{
+    font-family: poppins;
+    border: 0px;
+    margin: 0px;
+    
+
+}
+/*in this body background image is fetched from unsplace which changes as city */
+body{
+    border: 0;
+    background-image: url('https://images.unsplash.com/photo-1679572626185-1377f7579bbb?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+    
+}
+.parent {
+    /*this is parent container which contains every meterals */
+    /*background is transparent with black color background*/
+    width: 90%;
+    max-width: 570px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 30px;
+    padding: 40px 35px;
+    margin: 0 auto; /* This centers the div horizontally */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+/*element in search class is displayed in flex*/
+.search{
+    display: flex;
+    gap: 20px;
+
+}
+/*styling input box*/
+input{
+border: 0px;
+outline: 0px;
+color: #5b548a;
+height: 45px ;
+width: 300px;
+padding: 25px ,5px;
+padding-left: 25px;
+border-radius: 60px;
+
+}
+/*styling buttton */
+.button1{
+    background: none;
+    border: 0px;
+    outline: 0px;
+    border-radius: 60px;
+    height:40px;
+    text-align: right;
+    
+
+}
+/*hover is used to show shadow */
+button:hover{
+    cursor: pointer;
+    filter: drop-shadow(10px 10px 10px white);
+}
+/*styling weather class*/
+.weather{
+    text-align: left;
+    margin: 30px;
+    
+}
+/*styling weather condition under weather icon*/
+.condition{
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-top: px;
+    font-weight: bolder;
+}
+/*styling weather icon*/
+.weather img{
+    filter: brightness(900%);
+}
+
+/*styling temperature*/
+.temp{
+
+    font-size: 50px;
+
+    margin-bottom: 20px;
+    margin-top: -90px;
+    text-align: center;
+
+}
+/*styling city to center with some margin */
+
+.city{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+/*styling weather data such as humidity wind pressure in flex*/
+.details{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-left: -10px;
+    margin-right: -10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+/*styling date and day in center*/
+.dateTime{
+    text-align: center;
+    margin-top: -50px;
+}
+/*footer is positioned in bottom center */
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    
+    font-size: large;
+    background-color:rgb(39, 39, 39);
+}
+.error{
+    text-align: center;
+}
+
+.sevenDay{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 780px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 30px;
+    padding: 40px 35px;
+    margin: 0 auto; /* This centers the div horizontally */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.dayData{
+    display: flex;
+    gap: 1em;
+    border-style: double ;
+    border-color: #fff;
+    border: 5px;
+    font-size: small;
+    border-style:inset;
+    font-weight: bolder;
+}
+.button-link {
+    text-decoration: none; /* Remove default underline on links */
+    display: inline-block; /* Make the link a block element */
+    margin: 10px; /* Add margin if needed */
+}
+
+.button-link button {
+    /* Add styles for the button appearance */
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline on button text */
+}
+
+.button-link button:hover {
+    background-color: #45a049;
+}
